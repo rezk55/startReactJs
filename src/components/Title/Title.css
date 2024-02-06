@@ -1,0 +1,27 @@
+.line-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+h1,
+.line-star i {
+  color: #fff;
+}
+
+.line-star span {
+  display: block;
+  width: 70px;
+  height: 5px;
+  background-color: #fff;
+}
+
+.change-color-title h1,
+.change-color-title .line-star i {
+  color: var(--secondColor);
+}
+
+.change-color-title .line-star span {
+  background-color: var(--secondColor);
+}

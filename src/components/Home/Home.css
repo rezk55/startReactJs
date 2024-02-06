@@ -1,0 +1,19 @@
+
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#home .box {
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+#home .box img {
+    width: 75%;
+    height: 75%;
+}

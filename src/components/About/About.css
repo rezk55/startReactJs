@@ -1,0 +1,15 @@
+
+#about {
+    margin-top: 94px;
+    height: 80vh;
+}
+
+.about-desc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-desc p {
+    width: 45%;
+    text-wrap:balance;
+}

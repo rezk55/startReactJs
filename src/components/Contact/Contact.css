@@ -1,0 +1,36 @@
+#contact {
+  padding: 70px 0 50px 0;
+  background-color: #fff;
+}
+
+#contact form .form-control {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #e1e5e9;
+}
+
+#contact form label  {
+  position: absolute;
+  font-size: 1rem;
+  color: var(--mainColor);
+  top: 0;
+  opacity: 0;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.btn-send-message {
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+

@@ -1,0 +1,50 @@
+
+footer {
+    background-color: var(--secondColor);
+    color: #fff;
+}
+
+footer .links {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    width: max-content;
+    display: flex;
+    gap: 15px;
+}
+
+footer .links a {
+    color: #fff;
+    border: 1px solid;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+}
+
+footer .links a:hover {
+    color: var(--mainColor);
+}
+
+footer .coptright {
+   background-color: var(--copyrigthColor);
+}
+
+@media (max-width:992px) {
+    footer .about-freelancer p {
+        width: 80%;
+        margin: auto !important;
+    }
+}

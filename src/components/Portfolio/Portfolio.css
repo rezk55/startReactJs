@@ -1,0 +1,28 @@
+body {
+  position: relative;
+}
+
+#portfolio {
+  padding-top: 70px;
+  background-color: #fff;
+}
+
+.pop-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff44;
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+}
+
+.pop-up img {
+  position: fixed;
+  top: 25%;
+  width: 60%;
+  height: 65%;
+}
