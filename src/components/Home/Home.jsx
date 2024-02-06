@@ -1,14 +1,16 @@
 
-import React, { useEffect } from 'react';
 import Title from '../Title/Title';
 import './Home.css';
+import React,{ Component } from 'react'
 
-export default function Home () {
-  useEffect(() => {
+export default class Home extends Component {
+  componentDidMount(){
     document.title = "Home";
-  });
-  return (
-    <section id='home'>
+  }
+  render() {
+    return (
+      <div>
+         <section id='home'>
       <div className='container'>
           <div className='box'>
               <img src='imgs/avataaars.svg' alt='' className='w-100' />
@@ -17,5 +19,7 @@ export default function Home () {
           </div>
       </div>
     </section>
-  )
+      </div>
+    )
+  }
 }

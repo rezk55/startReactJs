@@ -7,7 +7,7 @@ export default function Navbar () {
     <header>
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
-          <Link  className="logo navbar-brand" to="/">
+          <Link  className="logo navbar-brand" to="home">
             START FRAMEWORK
           </Link>
           <button
@@ -27,17 +27,17 @@ export default function Navbar () {
           >
             <ul className="menu navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink className="nav-link" to="about">
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink  className="nav-link" to="/portfolio">
+                <NavLink  className="nav-link" to="portfolio">
                   Portfolio
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink  className="nav-link" to="/contact">
+                <NavLink  className="nav-link" to="contact">
                   Contact
                 </NavLink>
               </li>
